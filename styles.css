@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", "sans-serif";
+  font-family: Poppins, sans-serif;
 }
+
 body {
   margin: 0;
 }
+
 .container {
   height: 100vh;
   position: relative;
@@ -16,6 +19,7 @@ body {
   box-sizing: border-box;
   background-size: contain;
 }
+
 .toolbar {
   display: flex;
   flex-direction: row;
@@ -25,6 +29,7 @@ body {
   margin-left: 24px;
   margin-right: 24px;
 }
+
 main {
   height: 587.15px;
   top: 104;
@@ -32,10 +37,11 @@ main {
   margin-right: 24px;
   padding-top: 12px;
 }
+
 h1 {
   width: 327px;
   height: 150px;
-  font-family: "Poppins", "sans-serif";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -43,10 +49,11 @@ h1 {
   color: #172b4d;
   padding-top: 128px;
 }
+
 p {
   width: 327px;
   height: 146px;
-  font-family: "Poppins", "sans-serif";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -55,8 +62,9 @@ p {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
 h2 {
-  font-family: "Poppins", "sans-serif";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -64,12 +72,14 @@ h2 {
   color: #7f8cff;
   padding-bottom: 12px;
 }
+
 ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 12px;
 }
+
 ul li {
   list-style: none;
 }
