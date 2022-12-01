@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", "sans serif";
+  font-family: "Poppins", "sans-serif";
 }
 body {
   margin: 0;
@@ -35,7 +35,7 @@ main {
 h1 {
   width: 327px;
   height: 150px;
-  font-family: "Poppins", "sans serif";
+  font-family: "Poppins", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -46,7 +46,7 @@ h1 {
 p {
   width: 327px;
   height: 146px;
-  font-family: "Poppins", "sans serif";
+  font-family: "Poppins", "sans-serif";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -56,7 +56,7 @@ p {
   padding-bottom: 12px;
 }
 h2 {
-  font-family: "Poppins", "sans serif";
+  font-family: "Poppins", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
