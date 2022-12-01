@@ -99,7 +99,7 @@ Vs Code, Github and Figma Templates
 ### Setup
 
 Clone this repository to your desired folder:
-
+https://github.com/joshualyngdoh/Portfolio/pull/1
 
 ### Install
 
