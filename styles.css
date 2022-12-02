@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-h3 {
+h4 {
   color: #7f8cff;
   font-size: 16px;
   font-style: normal;
@@ -244,4 +244,64 @@ button:disabled {
   color: #5e6c84;
   background: transparent;
   border: 1px solid #c1c7d0;
+}
+
+.about-myself {
+  min-width: 375px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #fff;
+}
+
+.about-myself h1 {
+  width: 200px;
+}
+
+.about-myself button {
+  padding: 12px;
+  gap: 10px;
+}
+
+hr {
+  border-bottom: 1px solid #dfe1e6;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
+h3 {
+  font-style: poppins, sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 24px;
+}
+
+.vivo {
+  background: #f7f7f9;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.lightweight {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-myself .socials h4 {
+  padding-top: 22px;
+  padding-bottom: 12px;
 }
