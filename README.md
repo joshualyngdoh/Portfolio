@@ -100,7 +100,7 @@ Vs Code, Github and Figma Templates
 
 Clone this repository to your desired folder:
 
-https://github.com/joshualyngdoh/Portfolio/pull/1
+https://github.com/joshualyngdoh/Portfolio/pull/4
 
 ### Install
 
