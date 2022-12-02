@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-h2 {
+h3 {
   color: #7f8cff;
   font-size: 16px;
   font-style: normal;
@@ -66,6 +66,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 718px;
 }
 
 .logo a {
@@ -104,4 +105,143 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.work-section {
+  min-width: 375px;
+  height: 718px;
+  padding-top: 130px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #f4f5f7;
+  display: grid;
+  gap: 88px;
+  align-items: center;
+  justify-items: center;
+}
+
+.page-container {
+  width: 327px;
+  background-color: #fff;
+  padding: 12px;
+  padding-top: 16px;
+  border-radius: 16px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #dfe1e6;
+}
+
+.details {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin: auto;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+h2 {
+  width: 295px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.details p {
+  width: 295px;
+  height: 76px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.details .can {
+  width: 55px;
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.details .back {
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style: disc;
+}
+
+.details .year {
+  width: 29px;
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style-type: disc;
+}
+
+.languages ul li {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+button {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  background: transparent;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 16px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 0.5s;
+}
+
+button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+button:disabled {
+  color: #5e6c84;
+  background: transparent;
+  border: 1px solid #c1c7d0;
 }
