@@ -32,7 +32,7 @@
 - [📝 License](#license)
 
 
-# 📖<a name="about-project">Mobile-preview</a>
+# 📖<a name="about-project">Portfolio-Mobile-Preview</a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -100,7 +100,7 @@ Vs Code, Github and Figma Templates
 
 Clone this repository to your desired folder:
 
-https://github.com/joshualyngdoh/Portfolio/pull/1
+https://github.com/joshualyngdoh/Portfolio/pull/4
 
 ### Install
 
