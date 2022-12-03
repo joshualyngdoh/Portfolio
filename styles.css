@@ -107,6 +107,31 @@ ul {
   align-items: flex-start;
 }
 
+.twitter-logo {
+  width:19.99px;
+  height:19.96px
+}
+
+.linkedIn-logo {
+  width:20px;
+  height:20px
+}
+
+.medium-logo {
+  width:20px;
+  height:16px
+}
+
+.github-logo {
+  width:17.99px;
+  height:20px
+}
+
+.vertor-logo {
+  width:14.17px;
+  height:20px
+}
+
 .work-section {
   min-width: 375px;
   padding-bottom: 88px;
@@ -117,6 +142,11 @@ ul {
   gap: 88px;
   align-items: center;
   justify-items: center;
+}
+
+.work-section .work-section-button {
+  padding-top: 24px;
+  padding-bottom: 20px;
 }
 
 .first-work-section {
@@ -173,6 +203,7 @@ h2 {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  padding-bottom: 78px;
 }
 
 .details .can {
@@ -269,6 +300,14 @@ button:disabled {
   gap: 10px;
 }
 
+.about-myself .dropdown-title img {
+  transform: rotate(-90deg);
+}
+
+.about-myself .get-my-resume-button {
+  padding-top: 34px;
+}
+
 hr {
   border-bottom: 1px solid #dfe1e6;
   margin-top: 23px;
@@ -307,7 +346,15 @@ h3 {
   gap: 12px;
 }
 
+.lightweight img {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .about-myself .socials h4 {
   padding-top: 22px;
   padding-bottom: 12px;
 }
+
