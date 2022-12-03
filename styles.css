@@ -109,9 +109,7 @@ ul {
 
 .work-section {
   min-width: 375px;
-  height: 718px;
-  padding-top: 130px;
-  padding-bottom: 114px;
+  padding-bottom: 88px;
   padding-left: 24px;
   padding-right: 24px;
   background-color: #f4f5f7;
@@ -119,6 +117,14 @@ ul {
   gap: 88px;
   align-items: center;
   justify-items: center;
+}
+
+.first-work-section {
+  padding-top: 114px;
+}
+
+.last-work-section {
+  padding-bottom: 114px;
 }
 
 .page-container {
