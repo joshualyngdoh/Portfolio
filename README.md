@@ -32,7 +32,7 @@
 - [📝 License](#license)
 
 
-# 📖<a name="about-project">Mobile-preview</a>
+# 📖<a name="about-project">Portfolio-Mobile-Preview</a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -100,7 +100,7 @@ Vs Code, Github and Figma Templates
 
 Clone this repository to your desired folder:
 
-https://github.com/joshualyngdoh/Portfolio/pull/1
+https://github.com/joshualyngdoh/Portfolio/pull/4
 
 ### Install
 
@@ -209,13 +209,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Why are coding projects important?**
 
-  - [Answer_1]
+  - Coding projects play a crucial role for software developers to improve their skills. It gives a developer the chance to get an understanding of his or her capabilities and to build on their weaknesses in order to further themselves in their careers and expand their skillset. 
 
-- **[Question_2]**
+- **Is building a portfolio important?**
 
-  - [Answer_2]
+  - Yes, it is crucial for any software developer to have a portfolio. It allows you to showcase your work and also gives any future potential employer an idea of what he or she will be paying for if they hire you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-h2 {
+h4 {
   color: #7f8cff;
   font-size: 16px;
   font-style: normal;
@@ -66,6 +66,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 718px;
 }
 
 .logo a {
@@ -104,4 +105,255 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.twitter-logo {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.linkedIn-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.medium-logo {
+  width: 20px;
+  height: 16px;
+}
+
+.github-logo {
+  width: 17.99px;
+  height: 20px;
+}
+
+.vertor-logo {
+  width: 14.17px;
+  height: 20px;
+}
+
+.work-section {
+  min-width: 375px;
+  padding-bottom: 88px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #f4f5f7;
+  display: grid;
+  gap: 88px;
+  align-items: center;
+  justify-items: center;
+}
+
+.work-section .work-section-button {
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.first-work-section {
+  padding-top: 114px;
+}
+
+.last-work-section {
+  padding-bottom: 114px;
+}
+
+.page-container {
+  width: 327px;
+  background-color: #fff;
+  padding: 12px;
+  padding-top: 16px;
+  border-radius: 16px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #dfe1e6;
+}
+
+.details {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin: auto;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+h2 {
+  width: 295px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.details p {
+  width: 295px;
+  height: 76px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  padding-bottom: 78px;
+}
+
+.details .can {
+  width: 55px;
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.details .back {
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style: disc;
+}
+
+.details .year {
+  width: 29px;
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style-type: disc;
+}
+
+.languages ul li {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+button {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  background: transparent;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 16px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 0.5s;
+}
+
+button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+button:disabled {
+  color: #5e6c84;
+  background: transparent;
+  border: 1px solid #c1c7d0;
+}
+
+.about-myself {
+  min-width: 375px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #fff;
+}
+
+.about-myself h1 {
+  width: 200px;
+}
+
+.about-myself button {
+  padding: 12px;
+  gap: 10px;
+}
+
+.about-myself .dropdown-title img {
+  transform: rotate(-90deg);
+}
+
+.about-myself .get-my-resume-button {
+  padding-top: 34px;
+}
+
+hr {
+  border-bottom: 1px solid #dfe1e6;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
+h3 {
+  font-style: poppins, sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 24px;
+}
+
+.vivo {
+  background: #f7f7f9;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.vivo-img {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.lightweight {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-myself .socials h4 {
+  padding-top: 22px;
+  padding-bottom: 12px;
 }
