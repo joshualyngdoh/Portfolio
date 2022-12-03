@@ -108,28 +108,28 @@ ul {
 }
 
 .twitter-logo {
-  width:19.99px;
-  height:19.96px
+  width: 19.99px;
+  height: 19.96px;
 }
 
 .linkedIn-logo {
-  width:20px;
-  height:20px
+  width: 20px;
+  height: 20px;
 }
 
 .medium-logo {
-  width:20px;
-  height:16px
+  width: 20px;
+  height: 16px;
 }
 
 .github-logo {
-  width:17.99px;
-  height:20px
+  width: 17.99px;
+  height: 20px;
 }
 
 .vertor-logo {
-  width:14.17px;
-  height:20px
+  width: 14.17px;
+  height: 20px;
 }
 
 .work-section {
@@ -338,6 +338,13 @@ h3 {
   border-radius: 8px;
 }
 
+.vivo-img {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .lightweight {
   padding-top: 36px;
   padding-bottom: 36px;
@@ -346,15 +353,7 @@ h3 {
   gap: 12px;
 }
 
-.lightweight img {
-  padding-left: 12px;
-  padding-right: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
 .about-myself .socials h4 {
   padding-top: 22px;
   padding-bottom: 12px;
 }
-
