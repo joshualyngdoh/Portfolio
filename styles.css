@@ -9,11 +9,6 @@
 
 main {
   min-width: 375px;
-  height: 718px;
-  background-image: url(images/header-shapes\ mobile.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 body {
@@ -33,7 +28,6 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-style: normal;
-  font-family: Poppins, sans-serif;
   display: flex;
   align-items: center;
 }
@@ -48,8 +42,6 @@ h4 {
 }
 
 p {
-  width: 327px;
-  height: 146px;
   padding-top: 12px;
   color: #172b4d;
   font-weight: 400;
@@ -67,6 +59,10 @@ p {
   flex-direction: column;
   align-items: flex-start;
   height: 718px;
+  background-image: url(images/header-shapes\ mobile.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo a {
@@ -185,9 +181,6 @@ ul {
 }
 
 h2 {
-  width: 295px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -263,6 +256,7 @@ button {
   padding: 16px;
   line-height: 24px;
   color: #396df2;
+  background-color: #fff;
 }
 
 button:hover {
@@ -356,4 +350,69 @@ h3 {
 .about-myself .socials h4 {
   padding-top: 22px;
   padding-bottom: 12px;
+}
+
+.footer-background {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  background-image: url("../images/contact-form-bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right 30px;
+  border-top-left-radius: 100px;
+  padding-top: 103px;
+}
+
+.form-one {
+  margin-bottom: 20px;
+}
+
+.footer input,
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 16px;
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.footer textarea {
+  height: 170px;
+}
+
+.form-one ::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.footer-heading h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 52px;
+}
+
+.footer-heading p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer .cont {
+  padding-bottom: 45px;
+}
+
+.footer-heading {
+  text-align: center;
+  padding-bottom: 45px;
 }
