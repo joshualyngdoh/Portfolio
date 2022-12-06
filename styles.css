@@ -9,11 +9,6 @@
 
 main {
   min-width: 375px;
-  height: 718px;
-  background-image: url(images/header-shapes\ mobile.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 body {
@@ -33,7 +28,6 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-style: normal;
-  font-family: Poppins, sans-serif;
   display: flex;
   align-items: center;
 }
@@ -67,6 +61,10 @@ p {
   flex-direction: column;
   align-items: flex-start;
   height: 718px;
+  background-image: url(images/header-shapes\ mobile.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo a {
