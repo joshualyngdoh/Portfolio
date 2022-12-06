@@ -71,9 +71,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Indroductory section]**
+- **[Project and About me section]**
+- **[Contact me section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,17 +148,19 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Joshua Lyngdoh**
 
 - GitHub: [@githubhandle](https://github.com/joshualyngdoh)
 - Twitter: [@twitterhandle](https://twitter.com/joshualyngdoh08)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/joshualyngdoh)
 
-👤 **Author2**
+👤 **Damilare Arikeusola**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/mrprotocoll
+)
+- Twitter: [@twitterhandle](https://twitter.com/dprotocoll
+)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mrprotocoll)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,9 +169,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[I will be making the desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,9 +197,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Damilare Arikeusola for his patience as my coding partner in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
