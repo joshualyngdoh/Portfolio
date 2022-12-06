@@ -42,8 +42,6 @@ h4 {
 }
 
 p {
-  width: 327px;
-  height: 146px;
   padding-top: 12px;
   color: #172b4d;
   font-weight: 400;
@@ -183,9 +181,6 @@ ul {
 }
 
 h2 {
-  width: 295px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
