@@ -398,4 +398,27 @@ textarea {
   color: #b3bac5;
 }
 
+.footer-heading h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 52px;
+}
+
+.footer-heading p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer .cont {
+  padding-bottom: 45px;
+}
+
+.footer-heading{
+  text-align: center;
+  padding-bottom: 45px;
+}
 
