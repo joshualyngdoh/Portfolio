@@ -261,6 +261,7 @@ button {
   padding: 16px;
   line-height: 24px;
   color: #396df2;
+  background-color: #fff;
 }
 
 button:hover {
@@ -355,4 +356,46 @@ h3 {
   padding-top: 22px;
   padding-bottom: 12px;
 }
+
+.footer-background {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  background-image: url("../images/contact-form-bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right 30px;
+  border-top-left-radius: 100px;
+  padding-top: 103px;
+}
+
+.form-one {
+  margin-bottom: 20px;
+}
+
+.footer input,
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 16px;
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.footer textarea {
+  height: 170px;
+}
+
+.form-one ::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
 
