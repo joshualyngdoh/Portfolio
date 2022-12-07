@@ -416,3 +416,11 @@ textarea {
   text-align: center;
   padding-bottom: 45px;
 }
+
+@media screen and (min-width: 768px) {
+  .intro{
+    background-image: url(images/Header\ bg.svg);
+    padding-right: 105px;
+    padding-left: 105px;
+  }
+}
