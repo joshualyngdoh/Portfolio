@@ -16,8 +16,11 @@ body {
 }
 
 header {
-  width: 375px;
   background-color: #fff;
+}
+
+.desk {
+  display: none;
 }
 
 h1 {
@@ -420,7 +423,25 @@ textarea {
 @media screen and (min-width: 768px) {
   .intro{
     background-image: url(images/Header\ bg.svg);
-    padding-right: 105px;
-    padding-left: 105px;
+    padding-right: 260px;
+    padding-left: 260px;
+  }
+  .hamburger_menu{
+    display:none;
+  }
+  .desk {
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 155px;
+    padding-right: 155px;
   }
 }
