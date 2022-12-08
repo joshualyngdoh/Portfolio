@@ -294,7 +294,9 @@ button:disabled {
 .about-myself .dropdown-title img {
   transform: rotate(-90deg);
 }
-
+.about-myself .dropdown-title img {
+  transform: rotate(-90deg);
+}
 .about-myself .get-my-resume-button {
   padding-top: 34px;
 }
@@ -421,6 +423,10 @@ textarea {
     padding-right: 260px;
     padding-left: 260px;
   }
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+  }
   .intro h1 {
     font-weight: 700;
     font-size: 48px;
@@ -464,6 +470,15 @@ textarea {
  .about-myself {
   display: flex;
   flex-direction: row;
+  gap: 37px;
+  align-items: baseline;
+  padding: 142px;
+ }
+ .about-myself h1 {
+  width: auto;
+ }
+ .asu, .dropdown-items {
+  flex: 1 1;
  }
  .lightweight {
   display: flex;
@@ -473,10 +488,19 @@ textarea {
   display: flex;
   flex-direction: column;
  }
- .dropdown-title {
+ .dropdown-title, .dropdown-title-open {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+ }
+ .vivo {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 122px;
+  align-items: flex-start;
+ }
+ .vivo h5 {
+  padding-left: 12px;
  }
  .footer-background {
   display: flex;
