@@ -9,6 +9,7 @@
 
 main {
   min-width: 375px;
+  background-color: #f4f5f7;
 }
 
 body {
@@ -25,7 +26,6 @@ header {
 
 h1 {
   width: 327px;
-  height: 150px;
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -66,6 +66,8 @@ p {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 100px;
+  background-color: #fff;
 }
 
 .logo a {
@@ -151,6 +153,7 @@ ul {
 .first-work-section {
   padding-top: 114px;
 }
+
 .page-container {
   background-color: #fff;
   padding: 12px;
@@ -168,13 +171,6 @@ ul {
   display: flex;
   align-items: start;
   flex-direction: column;
-  margin: auto;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
 }
 
 h2 {
@@ -197,7 +193,6 @@ h2 {
 }
 
 .details .can {
-  width: 55px;
   height: 16px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -220,7 +215,6 @@ h2 {
 }
 
 .details .year {
-  width: 29px;
   height: 16px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -280,6 +274,7 @@ button:disabled {
   padding-left: 24px;
   padding-right: 24px;
   background-color: #fff;
+  border-top-right-radius: 100px;
 }
 
 .about-myself h1 {
@@ -294,9 +289,7 @@ button:disabled {
 .about-myself .dropdown-title img {
   transform: rotate(-90deg);
 }
-.about-myself .dropdown-title img {
-  transform: rotate(-90deg);
-}
+
 .about-myself .get-my-resume-button {
   padding-top: 34px;
 }
@@ -417,33 +410,37 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .intro{
+  .intro {
     background-image: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
     padding-right: 260px;
     padding-left: 260px;
+    overflow: hidden;
   }
+
   .intro-text {
     display: flex;
     flex-direction: column;
   }
+
   .intro h1 {
-    font-weight: 700;
+    width: 50%;
     font-size: 48px;
     line-height: 60px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.37px;
     padding-bottom: 12px;
   }
+
   .intro p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
   }
-  .hamburger_menu{
-    display:none;
+
+  .hamburger_menu {
+    display: none;
   }
+
   .desk {
     display: flex;
     font-weight: 500;
@@ -453,73 +450,137 @@ textarea {
     text-align: center;
     color: #344563;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
     padding-left: 155px;
     padding-right: 155px;
   }
+
   .page-container {
     display: grid;
     grid-template-columns: auto auto;
+    padding: 24px;
     gap: 46px;
   }
- .work-section .page-container:nth-of-type(even) .img-wrap {
-  order: 2;
- }  
- .about-myself {
-  display: flex;
-  flex-direction: row;
-  gap: 37px;
-  align-items: baseline;
-  padding: 142px;
- }
- .about-myself h1 {
-  width: auto;
- }
- .asu, .dropdown-items {
-  flex: 1 1;
- }
- .lightweight {
-  display: flex;
-  flex-direction: row;
- }
- .title {
-  display: flex;
-  flex-direction: column;
- }
- .dropdown-title, .dropdown-title-open {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
- }
- .vivo {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 122px;
-  align-items: flex-start;
- }
- .vivo h5 {
-  padding-left: 12px;
- }
- .footer-background {
-  display: flex;
-  align-items: center;
-  justify-items: center;
- }
- .footer-heading p{
-  width: 569px;
- }
- form {
-  width: 447px;
-  padding-bottom: 127px;
-  align-self: center;
 
- }
- .footer-background .get-my-resume-button {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
- }
+  .work-section .page-container:nth-of-type(even) .img-wrap {
+    order: 2;
+  }
+
+  ul {
+    gap: 32px;
+    padding-top: 20px;
+  }
+
+  .img-wrap img {
+    height: 448px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 28px;
+  }
+
+  .details p {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .details .can {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .details .back {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .details .year {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .languages ul {
+    padding-bottom: 14px;
+  }
+
+  .work-section {
+    width: 100%;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    align-items: baseline;
+    padding: 142px;
+  }
+
+  .about-myself h1 {
+    width: auto;
+  }
+
+  .asu,
+  .dropdown-items {
+    flex: 1 1;
+  }
+
+  .lightweight {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown-title,
+  .dropdown-title-open {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .vivo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 122px;
+    align-items: flex-start;
+  }
+
+  .vivo h5 {
+    padding-left: 12px;
+  }
+
+  .footer-background {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .footer-heading p {
+    width: 569px;
+  }
+
+  form {
+    width: 447px;
+    padding-bottom: 127px;
+    align-self: center;
+  }
+
+  .footer-background .get-my-resume-button {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
 }
