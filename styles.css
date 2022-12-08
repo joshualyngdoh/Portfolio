@@ -151,13 +151,7 @@ ul {
 .first-work-section {
   padding-top: 114px;
 }
-
-.last-work-section {
-  padding-bottom: 114px;
-}
-
 .page-container {
-  width: 327px;
   background-color: #fff;
   padding: 12px;
   padding-top: 16px;
@@ -459,21 +453,49 @@ textarea {
     padding-left: 155px;
     padding-right: 155px;
   }
-  .footer-heading h2 {
-    padding-left: 320px;
-    padding-right: 319px;
+  .page-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 46px;
   }
-  .footer-heading p{
-    font-weight: 400;
-    font-size: 20px;
-    padding-left: 436px;
-    padding-right: 435px;
-    line-height: 28px;
-    display: flex;
-    text-align: center;
-  }
-  .cont .form-one {
-    padding-left: 497px;
-    padding-right: 496px;
-  }
+ .work-section .page-container:nth-of-type(even) .img-wrap {
+  order: 2;
+ }  
+ .about-myself {
+  display: flex;
+  flex-direction: row;
+ }
+ .lightweight {
+  display: flex;
+  flex-direction: row;
+ }
+ .title {
+  display: flex;
+  flex-direction: column;
+ }
+ .dropdown-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .footer-background {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+ }
+ .footer-heading p{
+  width: 569px;
+ }
+ form {
+  width: 447px;
+  padding-bottom: 127px;
+  align-self: center;
+
+ }
+ .footer-background .get-my-resume-button {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+ }
 }
