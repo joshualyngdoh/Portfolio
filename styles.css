@@ -423,8 +423,23 @@ textarea {
 @media screen and (min-width: 768px) {
   .intro{
     background-image: url(images/Header\ bg.svg);
+    background-repeat: no-repeat;
     padding-right: 260px;
     padding-left: 260px;
+  }
+  .intro h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    padding-bottom: 12px;
+  }
+  .intro p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
   .hamburger_menu{
     display:none;
@@ -443,5 +458,22 @@ textarea {
     justify-content: space-between;
     padding-left: 155px;
     padding-right: 155px;
+  }
+  .footer-heading h2 {
+    padding-left: 320px;
+    padding-right: 319px;
+  }
+  .footer-heading p{
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 436px;
+    padding-right: 435px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+  }
+  .cont .form-one {
+    padding-left: 497px;
+    padding-right: 496px;
   }
 }
