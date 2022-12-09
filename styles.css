@@ -579,10 +579,10 @@ textarea {
   }
 
   .footer input,
-textarea {
-  border-radius: 2px;
-}
-  
+  textarea {
+    border-radius: 2px;
+  }
+
   .footer-background .get-my-resume-button {
     display: flex;
     flex-direction: column;
