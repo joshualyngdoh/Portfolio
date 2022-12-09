@@ -74,6 +74,7 @@
 - **[Indroductory section]**
 - **[Project and About me section]**
 - **[Contact me section]**
+- **[Transition and Animation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -20,8 +20,38 @@ header {
   background-color: #fff;
 }
 
+.logo {
+  animation: slideIn 500ms ease-out 10ms alternate;
+}
+
+@keyframes slideIn {
+  from {
+    margin-top: -10%;
+  }
+}
+
+.logo a {
+  color: #6070ff;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Poppins, sans-serif;
+}
+
 .desk {
   display: none;
+}
+
+.desk a {
+  color: #344563;
+  text-decoration: none;
+  transition: all 500ms ease-out 10ms;
+}
+
+.desk a:hover {
+  color: #2230d2;
 }
 
 h1 {
@@ -68,16 +98,6 @@ p {
   background-repeat: no-repeat;
   border-bottom-left-radius: 100px;
   background-color: #fff;
-}
-
-.logo a {
-  color: #6070ff;
-  text-decoration: none;
-  line-height: 20px;
-  font-size: 18px;
-  font-weight: 700;
-  font-style: normal;
-  font-family: Poppins, sans-serif;
 }
 
 nav {
@@ -460,9 +480,28 @@ textarea {
 
   .page-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     padding: 24px;
     gap: 46px;
+  }
+
+  .img-wrap img {
+    height: 448px;
+  }
+
+  .work-section .img-wrap {
+    width: 100%;
+  }
+
+  .work-section .img-wrap img {
+    width: 100%;
+    height: auto;
+    transition: width 500ms, height 500ms ease-out 10ms;
+  }
+
+  .work-section .img-wrap img:hover {
+    width: 103%;
+    height: 103%;
   }
 
   .work-section .page-container:nth-of-type(even) .img-wrap {
@@ -474,14 +513,11 @@ textarea {
     padding-top: 20px;
   }
 
-  .img-wrap img {
-    height: 448px;
-  }
-
   h2 {
     font-size: 40px;
     line-height: 52px;
-    padding-top: 28px;
+
+    /* padding-top: 28px; */
   }
 
   .details p {
