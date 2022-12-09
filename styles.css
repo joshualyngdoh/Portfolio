@@ -90,6 +90,16 @@ p {
   font-family: Poppins, sans-serif;
 }
 
+.logo {
+  animation: slideIn 500ms ease-out 10ms alternate;
+}
+
+@keyframes slideIn {
+  from {
+   margin-top: -10%; 
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
