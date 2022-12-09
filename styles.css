@@ -409,7 +409,7 @@ textarea {
   font-weight: 400;
   line-height: 28px;
 }
-
+ 
 .footer .cont {
   padding-bottom: 45px;
 }
@@ -470,13 +470,27 @@ textarea {
 
   .page-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     padding: 24px;
     gap: 46px;
   }
 
   .work-section .page-container:nth-of-type(even) .img-wrap {
     order: 2;
+  }
+  .work-section .img-wrap {
+    width: 100%;
+  }
+
+  .work-section .img-wrap img {
+    width: 100%;
+    height: auto;
+    transition: width 500ms, height 500ms ease-out 10ms;
+  }
+  
+  .work-section .img-wrap img:hover {
+    width: 103%;
+    height: 103%;
   }
 
   ul {
@@ -491,7 +505,7 @@ textarea {
   h2 {
     font-size: 40px;
     line-height: 52px;
-    padding-top: 28px;
+    /* padding-top: 28px; */
   }
 
   .details p {
