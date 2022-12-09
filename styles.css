@@ -565,6 +565,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-items: center;
+    background-image: url(images/contact\ form\ background\ shapes.svg);
   }
 
   .footer-heading p {
@@ -577,6 +578,11 @@ textarea {
     align-self: center;
   }
 
+  .footer input,
+textarea {
+  border-radius: 2px;
+}
+  
   .footer-background .get-my-resume-button {
     display: flex;
     flex-direction: column;
