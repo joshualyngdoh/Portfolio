@@ -628,23 +628,30 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
-  .menu-bar {
+  .desk {
+    display: block;
+  }
+  #hamburger-menu{
+    z-index: 2;
+    position: relative;
+  }
+  header nav ul.menu-bar {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background: rgba(96, 112, 255, 0.93);
-
-    /* list-style: none;
-  position: absolute;
-  top: 0px;
-  bottom: 0;
-  max-height: 100vh;
-  left: 0;
-  right: 400px;
-  z-index: 0;
-  transition: all 1.2s ease; */
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    max-height: 100vh;
+    left: 0;
+    right: 400px;
+    z-index: 0;
+    transition: all 1.2s ease; 
   }
 
-  /* header nav ul.menu-bar.active{
+  header nav ul.menu-bar.active{
   left: 0;
   right: 0;
 }
@@ -664,5 +671,5 @@ header nav ul.menu-bar li:nth-child(1){
 }
 header nav ul.menu-bar li a{
   color: #fff;
-} */
+}
 }
