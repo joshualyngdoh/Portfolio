@@ -1,6 +1,6 @@
 let img = document.getElementById("hamburger-menu")
 let menu = document.querySelector(".menu-bar")
-let specs = document.querySelector(".specs")
+let specs = document.querySelectorAll(".specs")
 
 
 function toggleNav() {
@@ -13,5 +13,13 @@ function toggleNav() {
       menu.classList.toggle("active")
     }
   }
+  function closeMenu() {
+    menu.classList.toggle("active")
+    img.src = "images/Union.svg";
+  }
   img.addEventListener('click', toggleNav)
-  specs.addEventListener('click', toggleNav)
+  // specs.addEventListener('click', closeMenu)
+  specs.forEach((element) => {
+    element.addEventListener('click', closeMenu)})
+
+
