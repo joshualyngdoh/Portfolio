@@ -36,11 +36,11 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**This project is about building a portfolio page using a figma template with HTML and CSS
+**This project is about building a portfolio page using a figma template with Javascript, HTML and CSS
 
 ## 🛠 Built With <a name="built-with">Vs Code and Github</a>
 
-###<a name="tech-stack">We used HTML,CSS,Github and Figma</a>
+###<a name="tech-stack">We used Javascript,HTML,CSS,Github and Figma</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -76,6 +76,7 @@
 - **[Contact me section]**
 - **[Transition and Animation]**
 - **[https://www.loom.com/share/44172d3c43c4413bb89bcc2da06c6ad8]**
+- **[Added Functionality using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,6 +144,14 @@ You can deploy this project using: https://joshualyngdoh.github.io/Portfolio/
 )
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mrprotocoll)
 
+👤 **Cindy Kandie**
+
+- GitHub: [@githubhandle](https://github.com/cindykandie
+)
+- Twitter: [@twitterhandle](https://twitter.com/cindykandie
+)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/cindykandie)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -180,6 +189,7 @@ If you like this project...
 
 I would like to thank Damilare Arikeusola for his patience as my coding partner in this project.
 
+I would like to thank Cindy Kandie for her help and guidance as my coding partner in this project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
