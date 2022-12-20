@@ -626,3 +626,54 @@ textarea {
     align-items: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .desk {
+    display: block;
+  }
+
+  #hamburger-menu {
+    z-index: 2;
+    position: relative;
+    padding-left: 240px;
+  }
+
+  header nav ul.menu-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(96, 112, 255, 0.93);
+    list-style: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-height: 100vh;
+    left: -100;
+    right: 400px;
+    z-index: 0;
+    transition: all 1.2s ease;
+  }
+
+  header nav ul.menu-bar.active {
+    left: 0;
+    right: 0;
+  }
+
+  header nav ul.menu-bar li {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 28px;
+    padding-bottom: 20px;
+  }
+
+  header nav ul.menu-bar li:nth-child(1) {
+    margin-top: 106px;
+  }
+
+  header nav ul.menu-bar li a {
+    color: #fff;
+  }
+}
