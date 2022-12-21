@@ -86,57 +86,59 @@ const projects = [
   },
 ];
 
-const getPopUpCloseButton = () => {
-
-}
-
 // Popup modal
-
-const popUpModal = (project) => {
+function popUpModal(project) {
   let modalContent = `
-    <div class="my-wrapper">
-    <div class="pop-up-header">
-    <h2>${project.name}</h2>
-    <img id="pop-up-close-button" src="images/CloseIcon.svg"/>
-   </div>
-   <div class="pop-up-sub-header">
-    <span class="can">${project.background}</span>
-    <span class="dot"></span>
-    <span class="back">${project.stack}</span>
-    <span class="dot"></span>
-    <span class="year">${project.year}</span>
-   </div>
-   <div class="pop-up-body">
-    <div class="img-wrap">
-      <div>
-        <img
-        id="pop-up-image-cover"
-        src="${project.image}"
-        alt="${project.alt}"
-      />
-    </div>
-    </div>
-    <div class="pop-up-body-contents">
-      <p>${project.description}</p>
-      <div class="languages">
-      <ul>
-      ${getToolsTemplate(project.tools)}
-      </ul>
+  <div class="window-blur"></div>
+  <div class="window-container">
+    <div class="window-body">
+      <div class="pop-up-header">
+        <h2>${project.name}</h2>
+        <img id="pop-up-close-button" src="images/CloseIcon.svg" />
       </div>
-      <hr/>
-      <div class="pop-up-button-wrapper">
-        <button class="pop-up-buttons"><span>See live</span> <img src="images/arrowbutton.svg"></button>
-        <button class="pop-up-buttons git-button"><span>See Source</span> <img src="images/secondgit.svg"></button>
+      <div class="pop-up-sub-header">
+        <span class="can">${project.background}</span>
+        <span class="dot"></span>
+        <span class="back">${project.stack}</span>
+        <span class="dot"></span>
+        <span class="year">${project.year}</span>
+      </div>
+      <div class="pop-up-body">
+        <div class="modal-img-wrapper">
+            <img
+              id="pop-up-image-cover"
+              src="${project.image}"
+              alt="${project.alt}"
+            />
+        </div>
+        <div class="pop-up-body-contents">
+          <p>${project.description}</p>
+          <div class="pop-up-details">
+            <div class="languages">
+              <ul>
+                ${getToolsTemplate(project.tools)}
+              </ul>
+            </div>
+            <hr />
+            <div class="pop-up-button-wrapper">
+              <button class="pop-up-buttons">
+                <span>See live</span> <img src="images/arrowbutton.svg" />
+              </button>
+              <button class="pop-up-buttons git-button">
+                <span>See Source</span> <img src="images/secondgit.svg" />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-   </div>
-    </div>
+  </div>
   `
   return modalContent;
 }
 
 // Tools template
-const getToolsTemplate = (tools) => {
+function getToolsTemplate(tools) {
   let toolsContent = "";
 
   tools.forEach((tool) => {
@@ -149,7 +151,7 @@ const getToolsTemplate = (tools) => {
 };
 
 // Project cards template
-const loadProjectCards = (projects = []) => {
+function loadProjectCards(projects = []) {
   let projectContents = "";
 
   projects.map((project) => {
@@ -191,11 +193,11 @@ const loadProjectCards = (projects = []) => {
   return projectContents;
 };
 
-const closePopUp = () => {
+function closePopUp() {
   popUpModalWrapper.style.display = 'none'
 }
 
-const openPopUp = (project) => {
+function openPopUp (project) {
   const popUpTemplate = popUpModal(project);
   popUpModalWrapper.innerHTML = popUpTemplate;
   popUpModalWrapper.style.display = 'block';
