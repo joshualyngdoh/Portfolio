@@ -48,6 +48,18 @@ header {
   overflow: auto;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  padding-top: 20px;
+}
+
+.languages ul {
+  padding-bottom: 14px;
+}
+
 .pop-up-details .languages ul {
   flex-wrap: wrap;
 }
@@ -69,24 +81,29 @@ header {
   height: 100vh;
   z-index: 3;
   position: relative;
-
   padding: 50px 20px;
   overflow: auto;
 }
 
 .window-body {
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 18px 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-
   max-width: 1108px;
   margin: auto;
 }
 
+hr {
+  border-bottom: 1px solid #dfe1e6;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
 .pop-up-window hr {
   width: 100%;
-  border: 1px solid #EBECF0;
+  border: 1px solid #ebecf0;
 }
 
 .pop-up-header {
@@ -94,8 +111,15 @@ header {
   justify-content: space-between;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
 .pop-up-header h2 {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .pop-up-sub-header {
@@ -108,7 +132,7 @@ header {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
   margin: 0 12px;
 }
 
@@ -214,14 +238,6 @@ ul li {
   list-style: none;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  padding-top: 12px;
-}
-
 .socials {
   padding-top: 12px;
   display: flex;
@@ -294,13 +310,6 @@ ul {
   flex-direction: column;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-}
-
 .details p {
   width: 295px;
   height: 76px;
@@ -335,7 +344,7 @@ h2 {
   list-style: disc;
 }
 
- .year {
+.year {
   height: 16px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -413,13 +422,6 @@ button:disabled {
 
 .about-myself .get-my-resume-button {
   padding-top: 34px;
-}
-
-hr {
-  border-bottom: 1px solid #dfe1e6;
-  margin-top: 23px;
-  margin-bottom: 23px;
-  width: 100%;
 }
 
 h3 {
@@ -531,7 +533,6 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-
   .pop-up-body-contents {
     display: flex;
     gap: 20px;
@@ -561,9 +562,11 @@ textarea {
   .logi {
     width: 35%;
   }
+
   #pop-up-image-cover {
     object-fit: cover;
   }
+
   .intro {
     background-image: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
@@ -642,11 +645,6 @@ textarea {
     order: 2;
   }
 
-  ul {
-    gap: 32px;
-    padding-top: 20px;
-  }
-
   h2 {
     font-size: 40px;
     line-height: 52px;
@@ -674,10 +672,6 @@ textarea {
   .details .year {
     font-size: 18px;
     line-height: 24px;
-  }
-
-  .languages ul {
-    padding-bottom: 14px;
   }
 
   .work-section {
