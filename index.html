@@ -170,9 +170,11 @@
           action="https://formspree.io/f/xdojqgvk"
           method="post"
           class="cont"
+          id="cont"
         >
           <div class="form-one">
             <input
+              id="name"
               type="text"
               required
               name="name"
@@ -183,13 +185,16 @@
           <div class="form-one">
             <input
               type="email"
+              id="email"
               required
               name="email"
               placeholder="Please enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             />
           </div>
           <div class="form-one">
             <textarea
+              id="messagebox"
               required
               name="message"
               placeholder="Write your message here"
@@ -197,7 +202,9 @@
             ></textarea>
           </div>
           <div class="get-my-resume-button">
-            <button>Get In Touch</button>
+            <div id="logi">
+            </div>
+            <button id="press" class="btn" type="submit">Get In Touch</button>
           </div>
         </form>
       </div>
