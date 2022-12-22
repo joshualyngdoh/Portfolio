@@ -756,8 +756,8 @@ textarea {
 }
 
 #logi {
-  color: red;
-  padding-bottom: 4px;
+  color: rgb(133, 3, 3);
+  padding: 0 auto 4px;
 }
 
 @media only screen and (max-width: 768px) {
