@@ -77,6 +77,7 @@
 - **[Transition and Animation]**
 - **[https://www.loom.com/share/44172d3c43c4413bb89bcc2da06c6ad8]**
 - **[Added Functionality using Javascript]**
+- **[Added Functionality Popup Window for Each project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
