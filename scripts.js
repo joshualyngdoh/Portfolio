@@ -3,7 +3,7 @@ const menu = document.querySelector('.menu-bar');
 const specs = document.querySelectorAll('.specs');
 const popUpModalWrapper = document.querySelector('#pop-up-window');
 
-function toggleNav() {
+const toggleNav = () => {
   if (img.src.match('images/Union.svg')) {
     img.src = 'images/Icon.svg';
     menu.classList.toggle('active');
@@ -11,11 +11,11 @@ function toggleNav() {
     img.src = 'images/Union.svg';
     menu.classList.toggle('active');
   }
-}
-function closeMenu() {
+};
+const closeMenu = () => {
   menu.classList.toggle('active');
   img.src = 'images/Union.svg';
-}
+};
 img.addEventListener('click', toggleNav);
 specs.forEach((element) => {
   element.addEventListener('click', closeMenu);
@@ -86,7 +86,7 @@ const projects = [
   },
 ];
 // Tools template
-function getToolsTemplate(tools) {
+const getToolsTemplate = (tools) => {
   let toolsContent = '';
 
   tools.forEach((tool) => {
@@ -96,9 +96,9 @@ function getToolsTemplate(tools) {
   });
 
   return toolsContent;
-}
+};
 // Popup modal
-function popUpModal(project) {
+const popUpModal = (project) => {
   const modalContent = `
   <div class="window-blur"></div>
   <div class="window-container">
@@ -146,10 +146,10 @@ function popUpModal(project) {
   </div>
   `;
   return modalContent;
-}
+};
 
 // Project cards template
-function loadProjectCards(projects = []) {
+const loadProjectCards = (projects = []) => {
   let projectContents = '';
 
   projects.forEach((project) => {
@@ -189,13 +189,13 @@ function loadProjectCards(projects = []) {
   });
 
   return projectContents;
-}
+};
 
-function closePopUp() {
+const closePopUp = () => {
   popUpModalWrapper.style.display = 'none';
-}
+};
 
-function openPopUp(project) {
+const openPopUp = (project) => {
   const popUpTemplate = popUpModal(project);
   popUpModalWrapper.innerHTML = popUpTemplate;
   popUpModalWrapper.style.display = 'block';
@@ -203,7 +203,7 @@ function openPopUp(project) {
   const popUpModalCloseButton = document.querySelector('#pop-up-close-button');
 
   popUpModalCloseButton.addEventListener('click', closePopUp);
-}
+};
 
 window.addEventListener('load', () => {
   const portfolioSection = document.querySelector('#portfolio');
