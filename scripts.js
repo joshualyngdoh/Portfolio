@@ -85,7 +85,18 @@ const projects = [
     sourceLink: '#',
   },
 ];
+// Tools template
+function getToolsTemplate(tools) {
+  let toolsContent = '';
 
+  tools.forEach((tool) => {
+    toolsContent += `
+      <li>${tool}</li>
+    `;
+  });
+
+  return toolsContent;
+}
 // Popup modal
 function popUpModal(project) {
   const modalContent = `
@@ -135,19 +146,6 @@ function popUpModal(project) {
   </div>
   `;
   return modalContent;
-}
-
-// Tools template
-function getToolsTemplate(tools) {
-  let toolsContent = '';
-
-  tools.forEach((tool) => {
-    toolsContent += `
-      <li>${tool}</li>
-    `;
-  });
-
-  return toolsContent;
 }
 
 // Project cards template
