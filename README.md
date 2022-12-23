@@ -79,6 +79,7 @@
 - **[Added Functionality using Javascript]**
 - **[Added mobile-menu using Javascript]**
 - **[Added Functionality Popup Window for Each project]**
+- **[Added presvation of data in the browser using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +133,7 @@ You can deploy this project using: https://joshualyngdoh.github.io/Portfolio/
 
 > Mention all of the collaborators of this project.
 
-👤 **Joshua Lyngdoh**
+👤 **Joshua Daryll Lyngdoh**
 
 - GitHub: [@githubhandle](https://github.com/joshualyngdoh)
 - Twitter: [@twitterhandle](https://twitter.com/joshualyngdoh08)
