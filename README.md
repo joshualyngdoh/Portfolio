@@ -79,6 +79,7 @@
 - **[Added Functionality using Javascript]**
 - **[Added mobile-menu using Javascript]**
 - **[Added Functionality Popup Window for Each project]**
+- **[Added presvation of data in the browser using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
